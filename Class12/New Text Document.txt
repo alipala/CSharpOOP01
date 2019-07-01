@@ -1,0 +1,11 @@
+Constructors and Inheritance
+
+base class constructor is being called from derived class.
+
+    public class Car : Vehicle
+    {
+        public Car(string registrationNumber)
+            :base(registrationNumber)
+        {
+            Console.WriteLine("Car is being initialized. {0}", registrationNumber);
+        }
